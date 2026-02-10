@@ -1,6 +1,6 @@
 {
     "name": "pict-serviceproviderbase",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Simple base classes for pict services.",
     "main": "source/Pict-ServiceProviderBase.js",
     "scripts": {
