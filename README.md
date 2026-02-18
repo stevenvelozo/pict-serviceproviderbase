@@ -172,8 +172,15 @@ _Pict.serviceManager.setDefaultServiceInstantiation('DatabaseService', 'ReplicaD
 
 ## Related Packages
 
-- [fable-serviceproviderbase](https://github.com/stevenvelozo/fable-serviceproviderbase) -- The generic service base class this module extends
-- [fable](https://github.com/stevenvelozo/fable) -- Core dependency injection and service management
-- [pict](https://github.com/stevenvelozo/pict) -- Application framework built on Fable
-- [pict-view](https://github.com/stevenvelozo/pict-view) -- View base class (extends this module)
-- [pict-provider](https://github.com/stevenvelozo/pict-provider) -- Provider base class with lifecycle hooks
+- [pict](https://github.com/stevenvelozo/pict) - MVC application framework
+- [pict-view](https://github.com/stevenvelozo/pict-view) - View base class
+- [pict-provider](https://github.com/stevenvelozo/pict-provider) - Data provider base class
+- [fable-serviceproviderbase](https://github.com/stevenvelozo/fable-serviceproviderbase) - Service provider base class
+
+## License
+
+MIT
+
+## Contributing
+
+Pull requests are welcome. For details on our code of conduct, contribution process, and testing requirements, see the [Retold Contributing Guide](https://github.com/stevenvelozo/retold/blob/main/docs/contributing.md).

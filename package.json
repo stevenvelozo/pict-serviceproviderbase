@@ -1,6 +1,6 @@
 {
     "name": "pict-serviceproviderbase",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Simple base classes for pict services.",
     "main": "source/Pict-ServiceProviderBase.js",
     "scripts": {
@@ -40,10 +40,10 @@
     },
     "homepage": "https://github.com/stevenvelozo/pict-serviceproviderbase",
     "devDependencies": {
-        "quackage": "^1.0.45"
+        "quackage": "^1.0.51"
     },
     "dependencies": {
-        "fable-serviceproviderbase": "^3.0.15",
-        "pict": "^1.0.343"
+        "fable-serviceproviderbase": "^3.0.18",
+        "pict": "^1.0.348"
     }
 }
