@@ -139,3 +139,39 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Added by quackage update-node-gitignore
+
+# Test Environment
+debug/testenv
+
+# Quackage takes care of these for me!
+.babelrc
+.browserslistrc
+.browserslistrc-BACKUP
+.gulpfile-quackage.js
+.gulpfile-quackage-config.json
+
+# I just dislike this one.
+.DS_Store
+
+# Logs
+.pnpm-debug.log*
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# dotenv environment variable files
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
