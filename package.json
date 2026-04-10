@@ -40,6 +40,7 @@
     },
     "homepage": "https://github.com/stevenvelozo/pict-serviceproviderbase",
     "devDependencies": {
+        "pict-docuserve": "^0.1.5",
         "quackage": "^1.1.0"
     },
     "dependencies": {
