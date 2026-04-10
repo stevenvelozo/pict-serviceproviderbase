@@ -1,4 +1,4 @@
-# Pict-ServiceProviderBase <small>1</small>
+# Pict-ServiceProviderBase
 
 > The Pict-specific service base class, bridging Fable's dependency injection into Pict applications.
 
