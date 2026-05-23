@@ -1,5 +1,7 @@
 # Pict Service Provider Base
 
+> **[&#9654; Read the Pict-Serviceproviderbase Documentation](https://stevenvelozo.github.io/pict-serviceproviderbase/)** &mdash; interactive docs with the full API reference.
+
 Base class for creating services that integrate with the Pict application
 framework. Extends `fable-serviceproviderbase` to add a `this.pict` reference,
 bridging the generic Fable service infrastructure into the Pict ecosystem.
