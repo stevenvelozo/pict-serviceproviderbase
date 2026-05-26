@@ -7,5 +7,5 @@
 - Supports standard and core pre-initialization service patterns
 - Used across the Retold ecosystem (Pict views, providers, sections)
 
-[GitHub](https://github.com/stevenvelozo/pict-serviceproviderbase)
+[GitHub](https://github.com/fable-retold/pict-serviceproviderbase)
 [Get Started](#pict-serviceproviderbase)

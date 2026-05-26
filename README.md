@@ -1,6 +1,6 @@
 # Pict Service Provider Base
 
-> **[&#9654; Read the Pict-Serviceproviderbase Documentation](https://stevenvelozo.github.io/pict-serviceproviderbase/)** &mdash; interactive docs with the full API reference.
+> **[&#9654; Read the Pict-Serviceproviderbase Documentation](https://fable-retold.github.io/pict-serviceproviderbase/)** &mdash; interactive docs with the full API reference.
 
 Base class for creating services that integrate with the Pict application
 framework. Extends `fable-serviceproviderbase` to add a `this.pict` reference,
@@ -16,7 +16,7 @@ Your Service
             └── FableServiceProviderBase (fable-serviceproviderbase)
 ```
 
-[fable-serviceproviderbase](https://github.com/stevenvelozo/fable-serviceproviderbase)
+[fable-serviceproviderbase](https://github.com/fable-retold/fable-serviceproviderbase)
 provides the foundation: dependency injection via a Fable instance, service
 registration, UUID/Hash identity, logging and access to other services through
 the shared `services` map. It knows nothing about Pict.
@@ -174,10 +174,10 @@ _Pict.serviceManager.setDefaultServiceInstantiation('DatabaseService', 'ReplicaD
 
 ## Related Packages
 
-- [pict](https://github.com/stevenvelozo/pict) - MVC application framework
-- [pict-view](https://github.com/stevenvelozo/pict-view) - View base class
-- [pict-provider](https://github.com/stevenvelozo/pict-provider) - Data provider base class
-- [fable-serviceproviderbase](https://github.com/stevenvelozo/fable-serviceproviderbase) - Service provider base class
+- [pict](https://github.com/fable-retold/pict) - MVC application framework
+- [pict-view](https://github.com/fable-retold/pict-view) - View base class
+- [pict-provider](https://github.com/fable-retold/pict-provider) - Data provider base class
+- [fable-serviceproviderbase](https://github.com/fable-retold/fable-serviceproviderbase) - Service provider base class
 
 ## License
 
