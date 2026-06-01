@@ -5,7 +5,7 @@
 ## What This Module Does
 
 This module provides a single class that extends
-[fable-serviceproviderbase](https://github.com/fable-retold/fable-serviceproviderbase).
+[fable-serviceproviderbase](https://fable-retold.github.io/fable-serviceproviderbase/).
 The only thing it adds is a `this.pict` property -- an alias for `this.fable` --
 set during `connectFable()`. Everything else (service registration, UUID/Hash
 identity, logging, service discovery) comes from the Fable layer.
@@ -80,8 +80,8 @@ npm install pict-serviceproviderbase
 
 ## Related Packages
 
-- [fable-serviceproviderbase](https://github.com/fable-retold/fable-serviceproviderbase) -- The generic base class this extends
-- [fable](https://github.com/fable-retold/fable) -- Dependency injection container and service manager
-- [pict](https://github.com/fable-retold/pict) -- Application framework (extends Fable)
-- [pict-view](https://github.com/fable-retold/pict-view) -- View base class for UI rendering
-- [pict-provider](https://github.com/fable-retold/pict-provider) -- Provider base class with data lifecycle hooks
+- [fable-serviceproviderbase](https://fable-retold.github.io/fable-serviceproviderbase/) -- The generic base class this extends
+- [fable](https://fable-retold.github.io/fable/) -- Dependency injection container and service manager
+- [pict](https://fable-retold.github.io/pict/) -- Application framework (extends Fable)
+- [pict-view](https://fable-retold.github.io/pict-view/) -- View base class for UI rendering
+- [pict-provider](https://fable-retold.github.io/pict-provider/) -- Provider base class with data lifecycle hooks
