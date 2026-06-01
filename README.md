@@ -1,6 +1,6 @@
 # Pict Service Provider Base
 
-> **[&#9654; Read the Pict-Serviceproviderbase Documentation](https://fable-retold.github.io/pict-serviceproviderbase/)** &mdash; interactive docs with the full API reference.
+> **[Read the Pict-Serviceproviderbase Documentation](https://fable-retold.github.io/pict-serviceproviderbase/)** - interactive docs with the full API reference.
 
 Base class for creating services that integrate with the Pict application
 framework. Extends `fable-serviceproviderbase` to add a `this.pict` reference,
