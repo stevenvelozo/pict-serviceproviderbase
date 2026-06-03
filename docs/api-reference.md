@@ -2,11 +2,8 @@
 
 ## Inheritance Chain
 
-```
-YourService
-    └── PictServiceProviderBase        (this module)
-            └── FableServiceProviderBase    (fable-serviceproviderbase)
-```
+<!-- bespoke diagram: edit diagrams/inheritance-chain.mmd or .hints.json, then: npx pict-renderer-graph build modules/pict/pict-serviceproviderbase/docs -->
+![Inheritance Chain](diagrams/inheritance-chain.svg)
 
 Everything below is available to any class that extends `PictServiceProviderBase`.
 Properties marked **(Fable)** are inherited from `FableServiceProviderBase`;

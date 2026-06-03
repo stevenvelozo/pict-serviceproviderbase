@@ -10,11 +10,8 @@ bridging the generic Fable service infrastructure into the Pict ecosystem.
 
 Retold's service architecture has two layers:
 
-```
-Your Service
-    └── PictServiceProviderBase (this module)
-            └── FableServiceProviderBase (fable-serviceproviderbase)
-```
+<!-- bespoke diagram: edit diagrams/how-it-relates-to-fable.mmd or .hints.json, then: npx pict-renderer-graph build modules/pict/pict-serviceproviderbase -->
+![How It Relates to Fable](diagrams/how-it-relates-to-fable.svg)
 
 [fable-serviceproviderbase](https://github.com/fable-retold/fable-serviceproviderbase)
 provides the foundation: dependency injection via a Fable instance, service

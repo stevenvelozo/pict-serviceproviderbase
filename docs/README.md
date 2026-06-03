@@ -24,11 +24,8 @@ Pict extends Fable, adding application lifecycle management, views, providers,
 templating, and browser-side rendering. Since Pict *is* a Fable instance,
 `this.pict` and `this.fable` always point to the same object.
 
-```
-Your Custom Service
-    └── PictServiceProviderBase      (adds this.pict)
-            └── FableServiceProviderBase  (provides fable, log, services, UUID, Hash, options)
-```
+<!-- bespoke diagram: edit diagrams/the-fable-foundation.mmd or .hints.json, then: npx pict-renderer-graph build modules/pict/pict-serviceproviderbase/docs -->
+![The Fable Foundation](diagrams/the-fable-foundation.svg)
 
 ## Quick Start
 
