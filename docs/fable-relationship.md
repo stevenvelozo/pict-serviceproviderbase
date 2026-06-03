@@ -8,21 +8,8 @@ both layers exist.
 
 Retold's service architecture is split into two layers:
 
-```
-┌─────────────────────────────────────────────┐
-│  Pict Application Layer                     │
-│  (views, providers, templates, AppData)     │
-│                                             │
-│  pict-serviceproviderbase adds: this.pict   │
-├─────────────────────────────────────────────┤
-│  Fable Service Layer                        │
-│  (DI, logging, UUID, service map, config)   │
-│                                             │
-│  fable-serviceproviderbase provides:        │
-│  fable, log, services, servicesMap,         │
-│  UUID, Hash, options, serviceType           │
-└─────────────────────────────────────────────┘
-```
+<!-- bespoke diagram: edit diagrams/two-layers-one-pattern.mmd or .hints.json, then: npx pict-renderer-graph build modules/pict/pict-serviceproviderbase/docs -->
+![Two Layers, One Pattern](diagrams/two-layers-one-pattern.svg)
 
 **Fable** is a general-purpose dependency injection container. It manages
 service registration, configuration, logging, and UUID generation. Any

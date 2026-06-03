@@ -1,0 +1,4 @@
+graph TD
+    PictLayer["Pict Application Layer<br/>(views, providers, templates, AppData)<br/>pict-serviceproviderbase adds: this.pict"]
+    FableLayer["Fable Service Layer<br/>(DI, logging, UUID, service map, config)<br/>fable-serviceproviderbase provides:<br/>fable, log, services, servicesMap,<br/>UUID, Hash, options, serviceType"]
+    PictLayer --> FableLayer
